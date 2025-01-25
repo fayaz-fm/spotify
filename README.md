@@ -80,8 +80,8 @@ where stream > 1000000000;
 ```sql
 select
     album,
-     artist f
-rom spotify
+     artist
+from spotify
 ```
 3. Get the total number of comments for tracks where `licensed = TRUE`.
 ```sql
